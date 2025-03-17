@@ -2,9 +2,9 @@
 This custom iOS keyboard features:
 - 101 keys
 - 0.91" OLED display to indicate capslock, play simple animations, and more
-- self-designed 3D printed case (coming soon)
-- PCB featuring chubby bird (made in Kicad)
+- PCB featuring chubby bird *made in Kicad*
 - KMK firmware for keyboard layout and oled display customization
+- self-designed 3D printed case *coming soon*
 - Powered by Raspberry Pi Pico!!
 
 ## PCB
