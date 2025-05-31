@@ -35,6 +35,12 @@ SMILE = KC.MACRO(
     Tap(KC.RPRN),
 )
 
+HEART = KC.MACRO(
+    Tap(KC.LABK),
+    Tap(KC.N3),
+    Tap(KC.N3),
+)
+
 CAPSLOCK = KC.MACRO(
     Press(KC.CAPSLOCK),
     Delay(10),
@@ -42,13 +48,19 @@ CAPSLOCK = KC.MACRO(
     Release(KC.CAPSLOCK),
 )
 
+GIT_ADD = KC.MACRO(
+    "git add .",
+    Tap(KC.ENT),
+    "git commit -m \"\"",
+)
+
 BASE = [
-    KC.PSLS, KC.PAST, KC.ESC,  KC.BRID, KC.BRIU, SMILE, KC.DEL, KC.RCMD(KC.RCMD), KC.LCMD(KC.LALT(KC.D)),  KC.MPRV, KC.MPLY, KC.MNXT, KC.MUTE, KC.VOLD, KC.VOLU, KC.MUTE, #when encoder switch is pressed
+    KC.PSLS, KC.PAST, KC.ESC,  KC.BRID, KC.BRIU, SMILE, HEART, KC.RCMD(KC.RCMD), KC.LCMD(KC.LALT(KC.D)),  KC.MPRV, KC.MPLY, KC.MNXT, KC.MUTE, KC.VOLD, KC.VOLU, KC.MUTE, #when encoder switch is pressed
     KC.PMNS, KC.P9, KC.GRV,  KC.N1,   KC.N2,   KC.N3,   KC.N4,   KC.N5,   KC.N6,   KC.N7,   KC.N8,   KC.N9,   KC.N0, KC.MINS, KC.EQL,  KC.BSPC,
     KC.P7, KC.P8, KC.TAB,  KC.Q,    KC.W,    KC.E,    KC.R,    KC.T,    KC.Y,    KC.U,    KC.I,    KC.O,    KC.P,    KC.LBRC, KC.RBRC, KC.BSLS, 
     KC.P5, KC.P6, KC.PPLS, CAPSLOCK,   KC.A,    KC.S,    KC.D,    KC.F,    KC.G,    KC.H,    KC.J,    KC.K,    KC.L,    KC.SCLN, KC.QUOT, KC.ENT,
     KC.P4, KC.P1, KC.P2, KC.LSFT, KC.Z,    KC.X,    KC.C,    KC.V,    KC.B,    KC.N,    KC.M,    KC.COMM, KC.DOT,  KC.SLSH, KC.RSFT, KC.UP,
-    KC.P0, KC.P3, KC.PDOT, KC.PENT, KC.MO(1) , KC.LCTL, KC.LALT, KC.LCMD, KC.NO, KC.SPC, KC.RCMD, KC.RALT, KC.LEFT, KC.DOWN, KC.RIGHT, KC.NO, #for changing led (lion key)
+    KC.P0, KC.P3, KC.PDOT, KC.PENT, KC.MO(1) , KC.LCTL, KC.LALT, KC.LCMD, KC.NO, KC.SPC, KC.RCMD, KC.RALT, KC.LEFT, KC.DOWN, KC.RIGHT, GIT_ADD, #for git add commit (lion key)
 ]
 
 FN = [
