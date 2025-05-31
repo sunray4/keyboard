@@ -1,5 +1,6 @@
 # RayBoard
-![assembled keyboard](/assets/assembled_keyboard.jpeg)
+![assembled keyboard](/assets/assembled_keyboard.jpg)
+
 This custom iOS mechanical keyboard features:
 - 95 switches in keyboard matrix
 - 0.91" OLED display to indicate capslock, play simple animations, and more
