@@ -3,11 +3,11 @@
 
 This custom iOS mechanical keyboard features:
 - 95 switches in keyboard matrix
-- 0.91" OLED display to indicate capslock, play simple animations, and more
-- Rotary Encoder Switch for voume/brightness control
-- self-designed 3D printed case (coming soon)
-- PCB featuring chubby bird (made in Kicad)
-- KMK firmware for keyboard layout and oled display customization
+- 0.91" OLED display to indicate capslock and play simple animations
+- Rotary Encoder Switch for volume/brightness control
+- Self-designed 3D printed case (Fusion 360)
+- Custom PCB (Kicad)
+- KMK firmware
 - Powered by Raspberry Pi Pico!!
 
 ## PCB
