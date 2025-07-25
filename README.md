@@ -10,9 +10,12 @@ This custom iOS mechanical keyboard features:
 - KMK firmware
 - Powered by Raspberry Pi Pico!!
 
-## PCB
-Link: https://hc-cdn.hel1.your-objectstorage.com/s/v3/838ee69a4a7859cef761f4f2ce842302e564a838_rayboard_demo4.mp4
-[![video preview](/assets/video_preview.png)](https://hc-cdn.hel1.your-objectstorage.com/s/v3/838ee69a4a7859cef761f4f2ce842302e564a838_rayboard_demo4.mp4)
+## Video Demo
+<a href="https://hc-cdn.hel1.your-objectstorage.com/s/v3/838ee69a4a7859cef761f4f2ce842302e564a838_rayboard_demo4.mp4" target="_blank">Demo Link</a>
+
+<a href="https://hc-cdn.hel1.your-objectstorage.com/s/v3/838ee69a4a7859cef761f4f2ce842302e564a838_rayboard_demo4.mp4" target="_blank">
+  <img src="/assets/preview.png" alt="video preview" width="600"/>
+</a>
 
 ## PCB
 | **Schematic** |
